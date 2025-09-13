@@ -66,6 +66,11 @@ Flood_Project/
 📡 Develop a simple web app (Streamlit/Flask) for real-time flood prediction
 
 ☁️ Deploy on Heroku / GitHub Pages
+✅ Week 4 – Deployment
+
+Built Streamlit app for real-time flood prediction
+
+Deployed on Streamlit Cloud 🌍
 
 🤝 Contribution
 
@@ -82,3 +87,4 @@ Correlation Heatmap
 📧 Contact: [jaisuryasm326@gmail.om]
 
 🌍 GitHub: @jaisurya36
+
