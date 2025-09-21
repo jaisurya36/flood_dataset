@@ -11,10 +11,10 @@ st.title("🌊 Flood Prediction Web App")
 st.write("Enter values to predict flood occurrence and risk level:")
 
 # Input fields
-rainfall = st.number_input("Rainfall (mm)", min_value=0, max_value=500, value=100)
-river_level = st.number_input("River Level (m)", min_value=0.0, max_value=20.0, value=5.0)
-soil_moisture = st.number_input("Soil Moisture (%)", min_value=0.0, max_value=100.0, value=30.0)
-temperature = st.number_input("Temperature (°C)", min_value=-10.0, max_value=50.0, value=25.0)
+rainfall = st.number_input("Rainfall (mm)", min_value=0, max_value=5000, value=100)
+river_level = st.number_input("River Level (m)", min_value=0.0, max_value=1000.0, value=5.0)
+soil_moisture = st.number_input("Soil Moisture (%)", min_value=0.0, max_value=1000.0, value=30.0)
+temperature = st.number_input("Temperature (°C)", min_value=-10.0, max_value=500.0, value=25.0)
 population_density = st.number_input("Population Density", min_value=0, max_value=10000, value=500)
 
 # Prediction button
